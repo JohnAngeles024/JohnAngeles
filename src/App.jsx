@@ -10,15 +10,11 @@ export default function App() {
   return (
     <div className="bg-white text-gray-900">
       <Navbar />
-
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
       <Footer />
     </div>
   )
